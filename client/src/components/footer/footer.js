@@ -15,8 +15,9 @@ const styles = {
     background: "#7a3b69",
     textAlign: "center",
     padding: "1.2em",
-    margin: 0,
+    margin: -20,
     bottom: 0,
+    top: 0,
   },
 };
 

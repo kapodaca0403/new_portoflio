@@ -7,10 +7,12 @@ const aboutme = () => {
       <main className="maininfo">
         <br></br>
         <br></br>
+
         <h2 className="h2">A little bit about me...</h2>
-        <img className="headshot"></img>
+        <img src="../../../Headshot_exam.jpg" className="headshot"></img>
         <br></br>
         <br></br>
+
         <p>
           Greetings! My name is K'trina Apodaca yes, like the hurricane. A
           little bit about me, I have lived in the Denver area my entire life. I
@@ -41,6 +43,7 @@ const aboutme = () => {
           It has changed my entire perspective on how applications and webpages
           work and I cannot wait to discover more.
         </p>
+        <br></br>
       </main>
     </div>
   );
