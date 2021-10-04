@@ -8,6 +8,7 @@ const aboutme = () => {
         <br></br>
         <br></br>
         <h2 className="h2">A little bit about me...</h2>
+        <img className="headshot"></img>
         <br></br>
         <br></br>
         <p>

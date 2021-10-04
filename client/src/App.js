@@ -4,6 +4,7 @@ import Footer from "./components/footer/footer";
 import Aboutme from "./components/aboutme/aboutme";
 import Contactform from "./components/contactform/contactform";
 import ReactDOM from "react-dom";
+import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import aboutme from "./components/aboutme/aboutme";
 

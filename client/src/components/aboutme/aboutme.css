@@ -1,21 +1,27 @@
 body {
-  background-color: #0d1b2a;
+  background: #9a879d;
 }
 .heading {
-  color: #0d1b2a;
-  background: #e0e1dd;
+  color: white;
+  background: #9a879d;
   font-family: "Shadows Into Light", cursive;
 }
 .maininfo {
-  color: #0d1b2a;
-  background: #e0e1dd;
+  color: white;
+  background: #9a879d;
   font-family: "Shadows Into Light", cursive;
 }
 .h2 {
-  color: #0d1b2a;
+  color: white;
   text-align: center;
   font-family: "Shadows Into Light", cursive;
 }
 p {
   margin: 0 0 10px 0;
+}
+.headshot {
+  src: "/public/Headshot_exam.jpg";
+  alt: "Example headshot of me";
+  width: 400px;
+  height: 450px;
 }

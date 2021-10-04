@@ -9,10 +9,14 @@ const styles = {
     borderRadius: 5,
     cursor: "pointer",
     bottom: "5%",
+    fontFamily: "Shadows Into Light, cursive",
   },
   back: {
     background: "#7a3b69",
-    justifyCenter: "center",
+    textAlign: "center",
+    padding: "1.2em",
+    margin: 0,
+    bottom: 0,
   },
 };
 
