@@ -1,0 +1,21 @@
+body {
+  background-color: #0d1b2a;
+}
+.heading {
+  color: #0d1b2a;
+  background: #e0e1dd;
+  font-family: "Shadows Into Light", cursive;
+}
+.maininfo {
+  color: #0d1b2a;
+  background: #e0e1dd;
+  font-family: "Shadows Into Light", cursive;
+}
+.h2 {
+  color: #0d1b2a;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+}
+p {
+  margin: 0 0 10px 0;
+}
