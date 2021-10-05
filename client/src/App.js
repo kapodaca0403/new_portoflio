@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import Aboutme from "./components/aboutme/aboutme";
+import Resume from "./components/resume/resume";
 import Projects from "./components/projects/project";
 import Contactform from "./components/contactform/contactform";
 import ReactDOM from "react-dom";
@@ -23,7 +24,7 @@ function App() {
         <Footer />
       </Router> */}
       <Navbar />
-      <Projects />
+      <Resume />
       <Footer />
     </>
   );
