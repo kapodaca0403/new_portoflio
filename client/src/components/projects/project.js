@@ -1,6 +1,6 @@
 import React from "react";
 // import Bounce from "react-animations";
-import { Card, CardGroup } from "react-bootstrap";
+import { Card, CardGroup, ButtonGroup, Button } from "react-bootstrap";
 
 // const bounce = styled.div`animations 2s ${keyframes` ${Bounce}`} infinite`;
 
@@ -52,7 +52,28 @@ export const projects = () => {
                 more access to crypto information and possibly learn from
                 others.
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Deployed
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -89,7 +110,30 @@ export const projects = () => {
                 Tag. This goes into detail about what it is and what it does
                 with examples for reference.
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button style={{ background: "#7a3b69", color: "white" }}>
+                    <a
+                      herf="https://github.com/nascott94/Brewing-Crypto"
+                      target="no-target-blank"
+                    >
+                      Deployed
+                    </a>
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -109,7 +153,9 @@ export const projects = () => {
                 }}
               >
                 README Generator
+                <br></br>
               </Card.Title>
+
               <Card.Text
                 style={{
                   textAlign: "center",
@@ -119,9 +165,30 @@ export const projects = () => {
                 }}
               >
                 A great, easy README Generator template accessible to whomever
-                would like to use.
+                would like to use. Just answer a few questions and all set!
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Deployed
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -156,7 +223,28 @@ export const projects = () => {
                 A great Scheduler app that allows you to add/delete reminders
                 throughout the day for specific times.
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Deployed
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -188,7 +276,28 @@ export const projects = () => {
                 campsites and let other campers know the ins and outs of their
                 next favorite campspot.
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Heroku
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -219,7 +328,28 @@ export const projects = () => {
                 An techblog made with fellow colleagues. Once this site is
                 finished I will add the gif and deployed link
                 <br></br>
-                Check it out:
+                <br></br>
+                <ButtonGroup
+                  style={{
+                    color: "white",
+                    background: "##7a3b69",
+                    fontFamily: "Shadows Into Light, cursive",
+                    fontSize: "8",
+                  }}
+                >
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Deployed
+                  </Button>
+                  <Button
+                    variant
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Github
+                  </Button>
+                </ButtonGroup>
               </Card.Text>
             </Card.Body>
           </Card>
