@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const navbar = () => {
   return (
@@ -28,11 +28,12 @@ export const navbar = () => {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link
-                href="/home"
                 style={{
                   color: "white",
                   fontFamily: "Shadows Into Light, cursive",
                 }}
+                Link
+                to="/"
               >
                 About Me
               </Nav.Link>
