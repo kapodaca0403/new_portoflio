@@ -24,7 +24,7 @@ function App() {
         <Footer />
       </Router> */}
       <Navbar />
-      <Resume />
+      <Contactform />
       <Footer />
     </>
   );
