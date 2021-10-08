@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Card, Button } from "react-bootstrap";
 
-import { emailjs } from "emailjs-com";
+import emailjs from "emailjs-com";
 
 function contactbutton() {
   const btn = document.getElementById("button");
@@ -76,6 +76,7 @@ export const contactform = () => {
             <Form.Control as="textarea" rows={3} />
             <Button
               id={{ contactbutton }}
+              n
               style={{
                 background: "#7a3b69",
                 color: "white",

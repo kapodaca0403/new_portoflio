@@ -28,11 +28,11 @@ export const navbar = () => {
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link
+                href="/aboutme"
                 style={{
                   color: "white",
                   fontFamily: "Shadows Into Light, cursive",
                 }}
-                href="/aboutme"
               >
                 About Me
               </Nav.Link>

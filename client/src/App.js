@@ -5,6 +5,7 @@ import Aboutme from "./components/aboutme/aboutme";
 import Resume from "./components/resume/resume";
 import Projects from "./components/projects/project";
 import Contactform from "./components/contactform/contactform";
+import Home from "./components/home/home";
 import ReactDOM from "react-dom";
 import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -16,7 +17,9 @@ function App() {
     <>
       <Router>
         <Navbar />
-
+        <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/aboutme">
           <Aboutme />
         </Route>
@@ -26,7 +29,7 @@ function App() {
         <Route exact path="/portfolio">
           <Projects />
         </Route>
-        <Route exact path="/Contactform">
+        <Route exact path="/contactform">
           <Contactform />
         </Route>
 

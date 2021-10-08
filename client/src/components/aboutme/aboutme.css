@@ -23,6 +23,7 @@ p {
 .headshot {
   src: "./public/Headshot_exam.jpg";
   alt: "Example headshot of me";
+  margin: "auto";
   width: 200px;
   height: 50;
   margin: -50;

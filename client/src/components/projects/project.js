@@ -63,12 +63,16 @@ export const projects = () => {
                 >
                   <Button
                     variant
+                    href="https://nascott94.github.io/Brewing-Crypto/"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
                     variant
+                    href="https://github.com/nascott94/Brewing-Crypto"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Github
@@ -119,15 +123,16 @@ export const projects = () => {
                     fontSize: "8",
                   }}
                 >
-                  <Button style={{ background: "#7a3b69", color: "white" }}>
-                    <a
-                      herf="https://github.com/nascott94/Brewing-Crypto"
-                      target="no-target-blank"
-                    >
-                      Deployed
-                    </a>
+                  <Button
+                    href="https://gist.github.com/kapodaca0403/197892918ca3c82ec42b06ba8ec9de65"
+                    target="no-target-blank"
+                    style={{ background: "#7a3b69", color: "white" }}
+                  >
+                    Deployed
                   </Button>
                   <Button
+                    href="https://github.com/kapodaca0403/regex_tutor"
+                    target="no-target-blank"
                     variant
                     style={{ background: "#7a3b69", color: "white" }}
                   >
@@ -178,12 +183,16 @@ export const projects = () => {
                 >
                   <Button
                     variant
+                    href="https://kapodaca0403.github.io/README/"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
                     variant
+                    href="https://github.com/kapodaca0403/README"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Github
@@ -234,12 +243,16 @@ export const projects = () => {
                 >
                   <Button
                     variant
+                    href="https://kapodaca0403.github.io/workday_scheduler/"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
                     variant
+                    href="https://github.com/kapodaca0403/workday_scheduler"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Github
@@ -287,12 +300,16 @@ export const projects = () => {
                 >
                   <Button
                     variant
+                    href="https://git-outside.herokuapp.com/"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Heroku
                   </Button>
                   <Button
                     variant
+                    href="https://github.com/dereklewis/Git-Outside"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Github
@@ -339,12 +356,16 @@ export const projects = () => {
                 >
                   <Button
                     variant
+                    href="https://nascott94.github.io/Brewing-Crypto/"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
                     variant
+                    href="https://github.com/Danfirech/Very-good-dogs-club"
+                    target="no-target-blank"
                     style={{ background: "#7a3b69", color: "white" }}
                   >
                     Github
