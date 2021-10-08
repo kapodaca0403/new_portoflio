@@ -19,7 +19,9 @@ This project is licensed under the MIT license.
 ## Description
 
 Hi there! This is an updated portfolio of mine using react. Here you will find an about me section, contact information and some of my latest projects that I have been working on during my bootcamp adventure.
+Heroku: https://katerz-reactport.herokuapp.com/
 Here is snippet of what it looks like:
+![Portfolio (1)](https://user-images.githubusercontent.com/87509827/136513725-7dd70834-475b-4854-bd4e-42ffe297ccbf.gif)
 
 ## Technology
 
