@@ -1,31 +1,31 @@
 import React from "react";
 import { Form, Card, Button } from "react-bootstrap";
 
-// import emailjs from "emailjs-com";
+import { emailjs } from "emailjs-com";
 
-// function contactbutton() {
-//   const btn = document.getElementById("button");
+function contactbutton() {
+  const btn = document.getElementById("button");
 
-//   document.getElementById("form").addEventListener("submit", function (event) {
-//     event.preventDefault();
+  document.getElementById("form").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-//     btn.value = "Sending...";
+    btn.value = "Sending...";
 
-//     const serviceID = "default_service";
-//     const templateID = "template_xt624j8";
+    const serviceID = "default_service";
+    const templateID = "template_xt624j8";
 
-//     emailjs.sendForm(serviceID, templateID, this).then(
-//       () => {
-//         btn.value = "Send Email";
-//         alert("Sent!");
-//       },
-//       (err) => {
-//         btn.value = "Send Email";
-//         alert(JSON.stringify(err));
-//       }
-//     );
-//   });
-// }
+    emailjs.sendForm(serviceID, templateID, this).then(
+      () => {
+        btn.value = "Send Email";
+        alert("Sent!");
+      },
+      (err) => {
+        btn.value = "Send Email";
+        alert(JSON.stringify(err));
+      }
+    );
+  });
+}
 
 export const contactform = () => {
   return (
@@ -75,7 +75,7 @@ export const contactform = () => {
             <Form.Label>Response:</Form.Label>
             <Form.Control as="textarea" rows={3} />
             <Button
-              id="submit"
+              id={{ contactbutton }}
               style={{
                 background: "#7a3b69",
                 color: "white",
