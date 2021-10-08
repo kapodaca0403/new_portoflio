@@ -16,7 +16,8 @@ const resume = () => {
           vwheight: "100%",
         }}
       >
-        Resume
+        <br></br>
+        Feel free to take a glance at my Resume
         <br></br>
         <br></br>
         <Card.Link style={{ fontSize: "12" }} href="#">
@@ -27,6 +28,7 @@ const resume = () => {
         <Card style={{ width: "400", background: "#9A879d" }}>
           <Card.Body>
             <Card.Title style={{ fontSize: "24", background: "9A879d" }}>
+              <br></br>
               Front-end Profiencies
             </Card.Title>
             <Card.Text
@@ -36,6 +38,7 @@ const resume = () => {
                 textAlign: "inline",
               }}
             >
+              <br></br>
               HTML
               <br></br>
               CSS
@@ -49,8 +52,12 @@ const resume = () => {
               Bootstrap
               <br></br>
             </Card.Text>
-            <Card.Title>Back-end Profiencies</Card.Title>
+            <Card.Title>
+              <br></br>
+              Back-end Profiencies
+            </Card.Title>
             <Card.Text>
+              <br></br>
               APIs
               <br></br>
               Node Express

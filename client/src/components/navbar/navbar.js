@@ -32,8 +32,7 @@ export const navbar = () => {
                   color: "white",
                   fontFamily: "Shadows Into Light, cursive",
                 }}
-                Link
-                to="/"
+                href="/aboutme"
               >
                 About Me
               </Nav.Link>
