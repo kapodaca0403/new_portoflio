@@ -13,7 +13,7 @@ const home = () => {
         <img
           src="../../../1183560.jpg"
           className="evangelion"
-          style={{ overflow: "hidden", width: "50%", textAlign: "right" }}
+          style={{ overflow: "hidden", width: "52%", textAlign: "right" }}
           ></img>
         <main className="maininfo">
            <p
