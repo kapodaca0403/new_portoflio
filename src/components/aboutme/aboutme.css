@@ -1,5 +1,5 @@
 body {
-  background: #9a879d;
+  background: "black";
 }
 .heading {
   color: white;
@@ -8,7 +8,7 @@ body {
 }
 .maininfo {
   color: white;
-  background: #9a879d;
+  background: black;
   font-family: "Shadows Into Light", cursive;
 }
 .h2 {

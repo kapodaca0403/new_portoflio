@@ -32,6 +32,9 @@ function App() {
         <Route exact path="/contactform">
           <Contactform />
         </Route>
+        <Route exact path="/home">
+          <Home />
+        </Route>
 
         <Footer />
       </Router>

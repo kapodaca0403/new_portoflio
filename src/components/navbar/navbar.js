@@ -10,7 +10,7 @@ export const navbar = () => {
         expand="lg py-5"
         bg="#689689"
         variant="light"
-        style={{ background: "black", marginLeft: "0px" }}
+        style={{ background: "black", marginLeft: "0px", width: "100%"}}
       >
         <Container>
           <Navbar.Brand
@@ -31,7 +31,7 @@ export const navbar = () => {
                 href="/aboutme"
                 style={{
                   color: "white",
-                  fontFamily: "Orbitron, sans-serif",
+                  fontFamily: "'Orbitron', sans-serif",
                 }}
               >
                 About Me
@@ -41,7 +41,7 @@ export const navbar = () => {
                 href="/portfolio"
                 style={{
                   color: "white",
-                  fontFamily: "Orbitron, sans-serif",
+                  fontFamily: "'Orbitron', sans-serif",
                 }}
               >
                 Portfolio
@@ -50,7 +50,7 @@ export const navbar = () => {
                 href="/resume"
                 style={{
                   color: "white",
-                  fontFamily: "Orbitron, sans-serif",
+                  fontFamily: "'Orbitron', sans-serif",
                 }}
               >
                 Resume
@@ -59,10 +59,19 @@ export const navbar = () => {
                 href="/contactform"
                 style={{
                   color: "white",
-                  fontFamily: "Orbitron, sans-serif",
+                  fontFamily: "'Orbitron', sans-serif",
                 }}
               >
                 Contact
+              </Nav.Link>
+              <Nav.Link
+                href="/home"
+                style={{
+                  color: "white",
+                  fontFamily: "'Orbitron', sans-serif",
+                }}
+              >
+                Home
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
