@@ -1,9 +1,11 @@
 import React from "react";
+// import background from "../../../1183560.jpg"
 import "../aboutme/aboutme.css";
 
 const home = () => {
   return (
     <div>
+      
       <main className="maininfo">
         <br></br>
         <br></br>

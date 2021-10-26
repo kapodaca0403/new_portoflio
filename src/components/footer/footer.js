@@ -1,9 +1,9 @@
 import React from "react";
 import { Button } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const styles = {
   button: {
-    background: "#9A879d",
+    background: "black",
     color: "white",
     fontSize: 20,
     borderRadius: 5,
@@ -12,7 +12,7 @@ const styles = {
     fontFamily: "Shadows Into Light, cursive",
   },
   back: {
-    background: "#7a3b69",
+    background: "black",
     textAlign: "center",
     padding: "1.2em",
     margin: -20,
@@ -31,8 +31,13 @@ const Footer = () => {
         >
           <button style={styles.button}>LinkedIn</button>
         </a>
-        <a href="https://github.com/kapodaca0403" target="no-target-blank">
-          <button style={styles.button}>Github</button>
+        <a
+          href="https://github.com/kapodaca0403"
+          target="no-target-blank">
+         <i class="fab fa-github-square">
+        
+        
+          </i>
         </a>
         <a
           href="https://stackoverflow.com/users/16485844/kavocado"

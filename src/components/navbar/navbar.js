@@ -10,15 +10,15 @@ export const navbar = () => {
         expand="lg py-5"
         bg="#689689"
         variant="light"
-        style={{ background: "#7a3b69", marginLeft: "0px" }}
+        style={{ background: "black", marginLeft: "0px" }}
       >
         <Container>
           <Navbar.Brand
             style={{
               color: "white",
-              background: "#7a3b69",
+              background: "black",
               fontSize: "40px",
-              fontFamily: "Shadows Into Light, cursive",
+              fontFamily: "'Orbitron', sans-serif",
             }}
           >
             K'trina Apodaca
@@ -31,7 +31,7 @@ export const navbar = () => {
                 href="/aboutme"
                 style={{
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "Orbitron, sans-serif",
                 }}
               >
                 About Me
@@ -41,7 +41,7 @@ export const navbar = () => {
                 href="/portfolio"
                 style={{
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "Orbitron, sans-serif",
                 }}
               >
                 Portfolio
@@ -50,7 +50,7 @@ export const navbar = () => {
                 href="/resume"
                 style={{
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "Orbitron, sans-serif",
                 }}
               >
                 Resume
@@ -59,7 +59,7 @@ export const navbar = () => {
                 href="/contactform"
                 style={{
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "Orbitron, sans-serif",
                 }}
               >
                 Contact
