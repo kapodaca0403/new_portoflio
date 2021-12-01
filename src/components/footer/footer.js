@@ -1,6 +1,9 @@
 import React from "react";
-import { Button } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaStackOverflow,
+} from "react-icons/fa";
 
 const styles = {
   button: {
@@ -31,18 +34,18 @@ const Footer = () => {
           href="https://www.linkedin.com/in/k%E2%80%99trina-apodaca-1b45481b6"
           target="no-target-blank"
         >
-          <button style={styles.button}>LinkedIn</button>
+          <FaLinkedin style={{ color: "white", fontSize: "40px" }} />
         </a>
 
         <a href="https://github.com/kapodaca0403" target="no-target-blank">
-         <button style={styles.button}>Github</button>
+          <FaGithub style={{ color: "white", fontSize: "40px" }} />
         </a>
 
         <a
           href="https://stackoverflow.com/users/16485844/kavocado"
           target="no-target-blank"
         >
-          <button style={styles.button}>Stack</button>
+          <FaStackOverflow style={{ color: "white", fontSize: "40px" }} />
         </a>
       </footer>
     </div>

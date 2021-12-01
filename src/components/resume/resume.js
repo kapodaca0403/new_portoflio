@@ -1,15 +1,16 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 const resume = () => {
   return (
     <div>
       <h1
         style={{
-          fontSize: 20,
+          fontSize: 16,
           color: "white",
-          textAlign: "left",
-          background: "#9A879d",
+          textAlign: "center",
+          background: "black",
           bottom: 0,
           padding: "1.2em",
           fontFamily: "Shadows Into Light, cursive",
@@ -17,24 +18,29 @@ const resume = () => {
         }}
       >
         <br></br>
-        Feel free to take a glance at my Resume
+        <br></br>
+        <FaHeart />
+        <FaRegHeart /> <br></br>
+        Feel free to take a glance at my Resume 
         <br></br>
         <br></br>
-        <Card.Link style={{ fontSize: "12" }} href="#">
+        <Card.Link style={{ fontSize: "8" }} href="#">
           Download Resume
         </Card.Link>
         <br></br>
         <br></br>
-        <Card style={{ width: "400", background: "#9A879d" }}>
+        <Card style={{ width: "400", background: "black" }}>
           <Card.Body>
-            <Card.Title style={{ fontSize: "24", background: "9A879d" }}>
+            <Card.Title style={{ fontSize: "16", background: "black" }}>
+              <br></br>
+              <br></br>
               <br></br>
               Front-end Profiencies
             </Card.Title>
             <Card.Text
               style={{
-                fontSize: "12",
-                background: "#9A879d",
+                fontSize: "8",
+                background: "#black",
                 textAlign: "inline",
               }}
             >
@@ -54,9 +60,11 @@ const resume = () => {
             </Card.Text>
             <Card.Title>
               <br></br>
+              <br></br>
               Back-end Profiencies
             </Card.Title>
             <Card.Text>
+              <br></br>
               <br></br>
               APIs
               <br></br>

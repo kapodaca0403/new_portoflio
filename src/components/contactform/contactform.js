@@ -1,5 +1,6 @@
 import React from "react";
-import { Form, Card, Button } from "react-bootstrap";
+import { Form, Card, Button, Row, Col } from "react-bootstrap";
+import { FaHeart, FaRegHeart} from "react-icons/fa";
 
 import emailjs from "emailjs-com";
 
@@ -35,13 +36,14 @@ export const contactform = () => {
           fontSize: 24,
           color: "white",
           textAlign: "center",
-          background: "#9A879d",
+          background: "black",
           bottom: 0,
           padding: "1.2em",
           fontFamily: "Shadows Into Light, cursive",
         }}
       >
-        Contact Me
+        Contact Me <FaHeart />
+        <FaRegHeart />
         <br></br>
         <br></br>
         <Card
@@ -49,12 +51,12 @@ export const contactform = () => {
             width: "600px",
             textAlign: "center",
             margin: "auto",
-            background: "#9A879d",
+            background: "black",
           }}
         >
           <Card.Img variant="top" src="../../../conactfoto.jpg" />
           <Card.Body>
-            <Card.Text style={{ background: "#9A879d" }}>
+            <Card.Text style={{ background: "black" }}>
               Greetings! Here is a space to send inquiries, questions, or
               concerns here. Please include your name in the response and I will
               get back to you right away! Thank you so much.
@@ -63,9 +65,36 @@ export const contactform = () => {
         </Card>
         <br></br>
         <br></br>
-        <Form style={{ background: "#9A879d" }}>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label id="form" style={{ fontSize: "18" }}>
+        <Form>
+          <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
+            <Form.Label column sm="2">
+              Email
+            </Form.Label>
+            <Col sm="10">
+              <Form.Control
+                plaintext
+                readOnly
+                placeholder="email@example.com"
+              />
+            </Col>
+          </Form.Group>
+
+          <Form.Group
+            as={Row}
+            className="mb-3"
+            controlId="formPlaintextPassword"
+          >
+            <Form.Label column sm="2">
+              Password
+            </Form.Label>
+            <Col sm="10">
+              <Form.Control type="password" placeholder="Password" />
+            </Col>
+          </Form.Group>
+        </Form>
+        {/* <Form style={{ background: "black", size: "small" }}>
+          <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
+            <Form.Label id="form" style={{ fontSize: "10" }}>
               Email address:
             </Form.Label>
             <Form.Control type="email" placeholder="name@example.com" />
@@ -78,7 +107,7 @@ export const contactform = () => {
               id={{ contactbutton }}
               n
               style={{
-                background: "#7a3b69",
+                background: "black",
                 color: "white",
                 fontSize: 20,
                 borderRadius: 5,
@@ -90,7 +119,7 @@ export const contactform = () => {
               Submit
             </Button>
           </Form.Group>
-        </Form>
+        </Form> */}
       </h1>
     </div>
   );

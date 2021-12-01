@@ -18,7 +18,7 @@ export const navbar = () => {
               color: "white",
               background: "black",
               fontSize: "40px",
-              fontFamily: "'Orbitron', sans-serif",
+              fontFamily: "Orbitron, sans-serif",
             }}
           >
             K'trina Apodaca

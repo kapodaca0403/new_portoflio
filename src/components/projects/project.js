@@ -1,6 +1,7 @@
 import React from "react";
 // import Bounce from "react-animations";
 import { Card, CardGroup, ButtonGroup, Button } from "react-bootstrap";
+import { FaHeart, FaRegHeart } from "react-icons/fa"
 
 // const bounce = styled.div`animations 2s ${keyframes` ${Bounce}`} infinite`;
 
@@ -12,28 +13,29 @@ export const projects = () => {
           fontSize: 24,
           color: "white",
           textAlign: "center",
-          background: "#9A879d",
+          background: "black",
           bottom: 0,
           padding: "1.2em",
-          fontFamily: "Shadows Into Light, cursive",
+          fontFamily: "'Orbitron', sans-serif;",
         }}
       >
-        Latest Projects
+        Latest Projects <FaHeart />
+        <FaRegHeart />
         <br></br>
         <br></br>
         <CardGroup>
-          <Card style={{ border: "secondary", background: "#9A879d" }}>
+          <Card style={{ border: "secondary", background: "black" }}>
             <Card.Img
               style={{ width: "200", height: "350px" }}
               variant="top"
-              src="../../../Brewing Crypto.gif"
+              src="../../../newportcry.PNG"
             />
             <Card.Body>
               <Card.Title
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 Brewing Crypto
@@ -43,7 +45,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 This project was something I had put together with three other
@@ -56,8 +58,8 @@ export const projects = () => {
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
@@ -65,15 +67,15 @@ export const projects = () => {
                     variant
                     href="https://nascott94.github.io/Brewing-Crypto/"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
-                    variant
                     href="https://github.com/nascott94/Brewing-Crypto"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    variant
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
@@ -82,7 +84,7 @@ export const projects = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ background: "#9A879d" }}>
+          <Card style={{ background: "black" }}>
             <Card.Img
               style={{
                 width: "200",
@@ -96,7 +98,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 Regex Turtorial for HTML Tag
@@ -106,7 +108,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 A tutorial I put together to help those interested on how regex
@@ -118,15 +120,15 @@ export const projects = () => {
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
                   <Button
                     href="https://gist.github.com/kapodaca0403/197892918ca3c82ec42b06ba8ec9de65"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Deployed
                   </Button>
@@ -134,7 +136,7 @@ export const projects = () => {
                     href="https://github.com/kapodaca0403/regex_tutor"
                     target="no-target-blank"
                     variant
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
@@ -143,18 +145,18 @@ export const projects = () => {
             </Card.Body>
           </Card>
 
-          <Card style={{ background: "#9A879d" }}>
+          <Card style={{ background: "black" }}>
             <Card.Img
               style={{ width: "200", height: "350px" }}
               variant="top"
-              src="../../../readme.gif"
+              src="../../../demogif.gif"
             />
             <Card.Body>
               <Card.Title
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 README Generator
@@ -166,7 +168,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 A great, easy README Generator template accessible to whomever
@@ -176,8 +178,8 @@ export const projects = () => {
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
@@ -185,7 +187,7 @@ export const projects = () => {
                     variant
                     href="https://kapodaca0403.github.io/README/"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Deployed
                   </Button>
@@ -193,7 +195,7 @@ export const projects = () => {
                     variant
                     href="https://github.com/kapodaca0403/README"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
@@ -205,55 +207,59 @@ export const projects = () => {
         <br></br>
         <br></br>
         <CardGroup>
-          <Card style={{ background: "#9A879d" }}>
+          <Card style={{ background: "black" }}>
             <Card.Img
               style={{ width: "200", height: "350px" }}
               variant="top"
-              src="../../../Work Day Scheduler.gif"
+              src="../../../"
             />
             <Card.Body>
               <Card.Title
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
-                Work Day Scheduler
+                Around the World
               </Card.Title>
               <Card.Text
                 style={{
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
-                A great Scheduler app that allows you to add/delete reminders
-                throughout the day for specific times.
+                This is a solo project that I am currently working on. It is a
+                blog that allow users to meet new people from different cultures
+                and share their most favorite recipe. Nothing beats a homemade
+                meal and I thought why not have users make new potentially life
+                long friends and share their love of food. This is still a
+                working progress and I will update accordingly.
                 <br></br>
                 <br></br>
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
                   <Button
                     variant
-                    href="https://kapodaca0403.github.io/workday_scheduler/"
+                    href=""
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Deployed
                   </Button>
                   <Button
                     variant
-                    href="https://github.com/kapodaca0403/workday_scheduler"
+                    href=""
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
@@ -261,18 +267,18 @@ export const projects = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ background: "#9A879d" }}>
+          <Card style={{ background: "black" }}>
             <Card.Img
               style={{ width: "200", height: "350px" }}
               variant="top"
-              src="../../../Git Outside.gif"
+              src="../../../newportgit.PNG"
             />
             <Card.Body>
               <Card.Title
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 Git Outside
@@ -282,7 +288,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
                 Git outside is the best next camping website. Users can reivew
@@ -293,8 +299,8 @@ export const projects = () => {
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
@@ -302,7 +308,7 @@ export const projects = () => {
                     variant
                     href="https://git-outside.herokuapp.com/"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Heroku
                   </Button>
@@ -310,7 +316,7 @@ export const projects = () => {
                     variant
                     href="https://github.com/dereklewis/Git-Outside"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
@@ -318,47 +324,51 @@ export const projects = () => {
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ background: "#9A879d" }}>
+          <Card style={{ background: "black" }}>
             <Card.Img
               style={{ width: "200", height: "350px" }}
               variant="top"
-              src="../../../workprogress.jpg"
+              src="../../../newportdoggo.PNG"
             />
             <Card.Body>
               <Card.Title
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
-                Project 3
+                Very Good Dog Club
               </Card.Title>
               <Card.Text
                 style={{
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "Shadows Into Light, cursive",
+                  fontFamily: "'Orbitron', sans-serif;",
                 }}
               >
-                An techblog made with fellow colleagues. Once this site is
-                finished I will add the gif and deployed link
+                This is a project I created with three others. One of my
+                colleagues jokingly told us about how she sometimes assumes what
+                her dog is thinking. We decided why not make a blog where others
+                can share pictures of their dogs and what they might be
+                thinking. We thought why not make the blog be completely dog
+                user friendly and made just FOR dogs *wink*.
                 <br></br>
                 <br></br>
                 <ButtonGroup
                   style={{
                     color: "white",
-                    background: "##7a3b69",
-                    fontFamily: "Shadows Into Light, cursive",
+                    background: "black",
+                    fontFamily: "'Orbitron', sans-serif;",
                     fontSize: "8",
                   }}
                 >
                   <Button
                     variant
-                    href="https://nascott94.github.io/Brewing-Crypto/"
+                    href="https://good-dogs-club.herokuapp.com/"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Deployed
                   </Button>
@@ -366,7 +376,7 @@ export const projects = () => {
                     variant
                     href="https://github.com/Danfirech/Very-good-dogs-club"
                     target="no-target-blank"
-                    style={{ background: "#7a3b69", color: "white" }}
+                    style={{ background: "black", color: "white" }}
                   >
                     Github
                   </Button>
