@@ -10,13 +10,13 @@ export const projects = () => {
     <div>
       <h1
         style={{
-          fontSize: 24,
+          fontSize: 18,
           color: "white",
           textAlign: "center",
           background: "black",
           bottom: 0,
           padding: "1.2em",
-          fontFamily: "'Orbitron', sans-serif;",
+          fontFamily: "Handlee, cursive",
         }}
       >
         Latest Projects <FaHeart />
@@ -35,7 +35,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Brewing Crypto
@@ -45,7 +45,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 This project was something I had put together with three other
@@ -59,7 +59,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >
@@ -98,7 +98,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Regex Turtorial for HTML Tag
@@ -108,7 +108,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 A tutorial I put together to help those interested on how regex
@@ -121,7 +121,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >
@@ -156,7 +156,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 README Generator
@@ -168,7 +168,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 A great, easy README Generator template accessible to whomever
@@ -179,7 +179,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >
@@ -218,7 +218,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Around the World
@@ -228,7 +228,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 This is a solo project that I am currently working on. It is a
@@ -243,7 +243,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >
@@ -278,7 +278,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Git Outside
@@ -288,7 +288,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Git outside is the best next camping website. Users can reivew
@@ -300,7 +300,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >
@@ -335,7 +335,7 @@ export const projects = () => {
                 style={{
                   textAlign: "center",
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Very Good Dog Club
@@ -345,7 +345,7 @@ export const projects = () => {
                   textAlign: "center",
                   fontSize: 12,
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif;",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 This is a project I created with three others. One of my
@@ -360,7 +360,7 @@ export const projects = () => {
                   style={{
                     color: "white",
                     background: "black",
-                    fontFamily: "'Orbitron', sans-serif;",
+                    fontFamily: "Handlee, cursive",
                     fontSize: "8",
                   }}
                 >

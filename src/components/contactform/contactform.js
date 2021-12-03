@@ -33,13 +33,13 @@ export const contactform = () => {
     <div>
       <h1
         style={{
-          fontSize: 24,
+          fontSize: 17,
           color: "white",
           textAlign: "center",
           background: "black",
           bottom: 0,
           padding: "1.2em",
-          fontFamily: "Shadows Into Light, cursive",
+          fontFamily: "Handlee, cursive",
         }}
       >
         Contact Me <FaHeart />
@@ -57,9 +57,8 @@ export const contactform = () => {
           <Card.Img variant="top" src="../../../conactfoto.jpg" />
           <Card.Body>
             <Card.Text style={{ background: "black" }}>
-              Greetings! Here is a space to send inquiries, questions, or
-              concerns here. Please include your name in the response and I will
-              get back to you right away! Thank you so much.
+              Thanks for visiting! Here is a space to write any questions or concerns, or a contact request. I'll be sure to get you. <FaHeart />
+              <FaRegHeart /> 
             </Card.Text>
           </Card.Body>
         </Card>
@@ -72,8 +71,8 @@ export const contactform = () => {
             </Form.Label>
             <Col sm="10">
               <Form.Control
-                plaintext
-                readOnly
+                style={{ padding: "1px 5px" }}
+                type="email"
                 placeholder="email@example.com"
               />
             </Col>
@@ -85,13 +84,23 @@ export const contactform = () => {
             controlId="formPlaintextPassword"
           >
             <Form.Label column sm="2">
-              Password
+              Comments
             </Form.Label>
             <Col sm="10">
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Control
+                style={{ padding: "25px 4px" }}
+                type="input"
+             
+              />
             </Col>
           </Form.Group>
         </Form>
+        <Button variant="light">Submit</Button>{" "}
+       
+  
+
+        <br></br>
+        
         {/* <Form style={{ background: "black", size: "small" }}>
           <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
             <Form.Label id="form" style={{ fontSize: "10" }}>

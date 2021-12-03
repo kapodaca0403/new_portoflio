@@ -7,13 +7,13 @@ const resume = () => {
     <div>
       <h1
         style={{
-          fontSize: 16,
+          fontSize: 17,
           color: "white",
           textAlign: "center",
           background: "black",
           bottom: 0,
           padding: "1.2em",
-          fontFamily: "Shadows Into Light, cursive",
+          fontFamily: "Handlee, cursive",
           vwheight: "100%",
         }}
       >
@@ -21,7 +21,7 @@ const resume = () => {
         <br></br>
         <FaHeart />
         <FaRegHeart /> <br></br>
-        Feel free to take a glance at my Resume 
+        Feel free to take a glance at my Resume
         <br></br>
         <br></br>
         <Card.Link style={{ fontSize: "8" }} href="#">
@@ -79,8 +79,8 @@ const resume = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <br></br>
-        <br></br>
+        
+      
       </h1>
     </div>
   );

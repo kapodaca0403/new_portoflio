@@ -10,7 +10,7 @@ export const navbar = () => {
         expand="lg py-5"
         bg="#689689"
         variant="light"
-        style={{ background: "black", marginLeft: "0px", width: "100%"}}
+        style={{ background: "black", marginLeft: "0px", width: "100%" }}
       >
         <Container>
           <Navbar.Brand
@@ -18,7 +18,7 @@ export const navbar = () => {
               color: "white",
               background: "black",
               fontSize: "40px",
-              fontFamily: "Orbitron, sans-serif",
+              fontFamily: "Handlee, cursive",
             }}
           >
             K'trina Apodaca
@@ -31,7 +31,7 @@ export const navbar = () => {
                 href="/aboutme"
                 style={{
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 About Me
@@ -41,7 +41,7 @@ export const navbar = () => {
                 href="/portfolio"
                 style={{
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Portfolio
@@ -50,7 +50,7 @@ export const navbar = () => {
                 href="/resume"
                 style={{
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Resume
@@ -59,7 +59,7 @@ export const navbar = () => {
                 href="/contactform"
                 style={{
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Contact
@@ -68,7 +68,7 @@ export const navbar = () => {
                 href="/home"
                 style={{
                   color: "white",
-                  fontFamily: "'Orbitron', sans-serif",
+                  fontFamily: "Handlee, cursive",
                 }}
               >
                 Home

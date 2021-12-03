@@ -1,14 +1,16 @@
 import React from "react";
 import "../aboutme/aboutme.css";
+import { FaHeart, FaRegHeart} from "react-icons/fa"
 
 const aboutme = () => {
   return (
     <div>
+<div class= "row">
+  
       <main className="maininfo">
         <br></br>
-        <br></br>
-
-        <h2 className="h2">A little bit about me...</h2>
+        <br></br> 
+        <p style={{ size: "18", textAlign:"center"}}> A little bit about me <FaHeart /> <FaRegHeart /> </p>
         <img src="../../../Headshot_exam.jpg" className="headshot"></img>
         <br></br>
         <br></br>
@@ -46,6 +48,7 @@ const aboutme = () => {
         <br></br>
       </main>
     </div>
+</div>
   );
 };
 

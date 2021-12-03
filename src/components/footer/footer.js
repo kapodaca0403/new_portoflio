@@ -5,6 +5,7 @@ import {
   FaStackOverflow,
 } from "react-icons/fa";
 
+
 const styles = {
   button: {
     background: "black",
@@ -13,7 +14,7 @@ const styles = {
     borderRadius: 5,
     cursor: "pointer",
     bottom: "5%",
-    fontFamily: "Orbitron, sans-serif",
+    fontFamily: "Handlee, cursive",
   },
   back: {
     background: "black",
