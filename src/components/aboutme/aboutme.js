@@ -1,54 +1,55 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap"
 import "../aboutme/aboutme.css";
 import { FaHeart, FaRegHeart} from "react-icons/fa"
+
 
 const aboutme = () => {
   return (
     <div>
-<div class= "row">
-  
-      <main className="maininfo">
-        <br></br>
-        <br></br> 
-        <p style={{ size: "18", textAlign:"center"}}> A little bit about me <FaHeart /> <FaRegHeart /> </p>
-        <img src="../../../Headshot_exam.jpg" className="headshot"></img>
-        <br></br>
-        <br></br>
+      <div class="row">
+        <main className="maininfo">
+          <br></br>
+          <br></br>
+          <p style={{ size: "20", textAlign: "center" }}>
+            {" "}
+            A little bit about me <FaHeart /> <FaRegHeart />{" "}
+          </p>
+          <br></br>
+          <br></br>
+          <Container>
+            <Row>
+              <Col>
+                <img
+                  variant="top"
+                  src="../../../Headshot_exam.jpg"
+                  style={{
+                    background: "black",
+                    height: "550px",
+                    width: "350px",
+                    right: "5%",
+                  }}
+                />
+              </Col>
 
-        <p>
-          Greetings! My name is K'trina Apodaca yes, like the hurricane. A
-          little bit about me, I have lived in the Denver area my entire life. I
-          love the idea of having more than one season even if it isn't for
-          long. After graduating highschool I was one of those individuals whom
-          was a little indecisive when it came to choosing a career path. I
-          thought it would be best to start out at a Community College to gain
-          my general credits and to take a few classes may have caught my eye.
-        </p>
+              <Col>
+                <p>
+                  Hope you enjoyed the Neon Evangelion image on the homepage.
+                  About the good stuff, I go by K'trina! I recently graduated
+                  from the Univeristy of Denver Full Stack Coding Bootcamp. My
+                  favorite thing to do is learn, learn and more learning. I have
+                  expertise in HTML5, React, Javascript and Bootstrap and of
+                  course taking the journey to add more to the list. Feel free
+                  to stay and browse!
+                </p>
+              </Col>
+            </Row>
+          </Container>
 
-        <p>
-          I previously worked for a Customer Serivce Company handling anything
-          fraud related. I gained an understanding of ways to locate account
-          takeovers in the user activity log. I also got acquainted with
-          learning about system bugs, locating solutions and giving feedback to
-          our internal offices However, the company decided to start a new
-          adventure overseas.
-        </p>
-
-        <p>
-          BUT it has been the perfect opportunity for me to start my new
-          adventure as well. I noticed when I would search for new job
-          opportunities different softwares were required. Then, one day on
-          LinkedIn a post from Denver University was a little bit of information
-          about a coding bootcamp. After, a little reasearch I decided to take a
-          leap of faith and enroll in the bootcamp to start my new adventure. I
-          have now opened my world to coding and I don't think I will go back.
-          It has changed my entire perspective on how applications and webpages
-          work and I cannot wait to discover more.
-        </p>
-        <br></br>
-      </main>
+          <br></br>
+        </main>
+      </div>
     </div>
-</div>
   );
 };
 

@@ -1,6 +1,6 @@
 import React from "react";
 // import Bounce from "react-animations";
-import { Card, CardGroup, ButtonGroup, Button } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
 import { FaHeart, FaRegHeart } from "react-icons/fa"
 
 // const bounce = styled.div`animations 2s ${keyframes` ${Bounce}`} infinite`;
@@ -23,40 +23,102 @@ export const projects = () => {
         <FaRegHeart />
         <br></br>
         <br></br>
-        <Carousel variant="dark">
+        <Carousel fade>
+          {/* <Carousel variant="dark"> */}
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=f5f5f5"
-              alt="First slide"
+              style={{ height: "850px", width: "1000px" }}
+              src="../../../newportcry.PNG"
+              alt="gitoutside"
             />
             <Carousel.Caption>
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=eee"
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-              alt="Third slide"
-            />
-            <Carousel.Caption>
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              <h5
+                style={{
+                  color: "white",
+                }}
+              >
+                Brewing Crypto
+              </h5>
+              <p
+                style={{
+                  color: "white",
+                }}
+              >
+                A site designed to bring crypto and beer together by allowing
+                users to learn more about crypto and find a fun local bar near
+                them.
               </p>
+              <Button
+                variant="link"
+                size="sm"
+                href="https://nascott94.github.io/Brewing-Crypto/"
+                target="no-target-blank" style={{color:"white"}}
+              >
+                View here
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              style={{ height: "850px", width: "900px" }}
+              src="../../../gal.PNG"
+              alt="Git outside"
+            />
+            <Carousel.Caption>
+              <h5>Git Outside</h5>
+              <p >
+                Designed to allow users to create accounts to post hidden
+                gems/campsites and share memories.
+              </p>
+              <Button
+                variant="link"
+                size="sm"
+                href="https://git-outside.herokuapp.com/"
+                target="no-target-blank"
+                style={{color: "white"}}
+              >
+                View here
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              style={{ height: "850px", width: "1000px" }}
+              src="../../../newpug.PNG"
+              alt="Good Doggo"
+            />
+            <Carousel.Caption>
+              <h5>Very Good Dogs Club</h5>
+              <p>
+                A blog designed in the eyes of a dog. Users can create an
+                account to share their life moments with their dogs to other dog
+                lovers.
+              </p>
+              <Button
+                variant="link"
+                size="sm"
+                href="https://good-dogs-club.herokuapp.com/"
+                target="no-target-blank" style={{color:"white"}}
+              >
+                View here
+              </Button>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              style={{ height: "850px", width: "1000px" }}
+              src="../../../newprog.jpg"
+              alt="Event Planner"
+            />
+            <Carousel.Caption>
+              <h5>Event Planner</h5>
+              <p>
+                A personal website in the making. It is designed to show off the
+                client’s event planning services.
+              </p>
+              <Button variant="link" size="sm" style={{color:"white"}}>
+                View here
+              </Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
