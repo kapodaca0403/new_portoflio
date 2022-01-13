@@ -33,7 +33,10 @@ const aboutme = () => {
               </Col>
 
               <Col>
-                <p>
+              <br></br>
+                <h5 style={{ textAlign: "center" }}> W E L C O M E </h5>
+                <br></br>
+                <p style={{ lineHeight: "3.8" }}>
                   Hope you enjoyed the Neon Evangelion image on the homepage.
                   About the good stuff, I go by K'trina! I recently graduated
                   from the Univeristy of Denver Full Stack Coding Bootcamp. My
@@ -46,6 +49,7 @@ const aboutme = () => {
             </Row>
           </Container>
 
+          <br></br>
           <br></br>
         </main>
       </div>

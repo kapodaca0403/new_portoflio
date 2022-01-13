@@ -1,6 +1,15 @@
 import React from "react";
 import { Form, Card, Button, Row, Col } from "react-bootstrap";
-import { FaHeart, FaRegHeart} from "react-icons/fa";
+import {
+  FaHeart,
+  FaRegHeart,
+  FaAngellist,
+  FaGithub,
+  FaLinkedin,
+  FaStackOverflow,
+  FaLink,
+  FaEnvelope,
+} from "react-icons/fa";
 
 import emailjs from "emailjs-com";
 
@@ -33,7 +42,7 @@ export const contactform = () => {
     <div>
       <h1
         style={{
-          fontSize: 17,
+          fontSize: 18,
           color: "white",
           textAlign: "center",
           background: "black",
@@ -57,14 +66,33 @@ export const contactform = () => {
           <Card.Img variant="top" src="../../../conactfoto.jpg" />
           <Card.Body>
             <Card.Text style={{ background: "black" }}>
-              Thanks for visiting! Here is a space to write any questions or concerns, or a contact request. I'll be sure to get you. <FaHeart />
-              <FaRegHeart /> 
+              Thanks for visiting! Here are the best ways to contact me and i'll
+              be sure to keep in touch.
+              <FaAngellist />
+              <Card.Footer>
+                <FaEnvelope></FaEnvelope>
+
+                <a href="https://www.linkedin.com/in/k%E2%80%99trina-apodaca-1b45481b6/" target="no-target-blank">
+                  <FaLinkedin>
+                </FaLinkedin>
+                </a>
+              <a href="https://github.com/kapodaca0403" target="no-target-blank">
+                <FaGithub></FaGithub>
+</a>
+<a href="https://stackoverflow.com/users/16485844/kavocado" target="no-target-blank">
+                <FaStackOverflow></FaStackOverflow>
+                </a>
+              </Card.Footer>
             </Card.Text>
           </Card.Body>
         </Card>
         <br></br>
         <br></br>
-        <Form>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        {/* <Form>
           <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
             <Form.Label column sm="2">
               Email
@@ -80,7 +108,7 @@ export const contactform = () => {
 
           <Form.Group
             as={Row}
-            className="mb-3"
+            className="mb-2"
             controlId="formPlaintextPassword"
           >
             <Form.Label column sm="2">
@@ -88,7 +116,7 @@ export const contactform = () => {
             </Form.Label>
             <Col sm="10">
               <Form.Control
-                style={{ padding: "25px 4px" }}
+                style={{ padding: "25px 2px" }}
                 type="input"
              
               />
@@ -99,8 +127,7 @@ export const contactform = () => {
        
   
 
-        <br></br>
-        
+        <br></br> */}
         {/* <Form style={{ background: "black", size: "small" }}>
           <Form.Group className="mb-1" controlId="exampleForm.ControlInput1">
             <Form.Label id="form" style={{ fontSize: "10" }}>

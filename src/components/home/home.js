@@ -26,9 +26,7 @@ const home = () => {
           fontSize: "20px"
         }}
       >
-        Greetings! My name is K'trina Apodaca. I am a Full Stack Jr Dev. Feel
-        free to explore my portfolio and if anything catches your eye feel
-        free to reach out to me!
+        Greetings! My name is K'trina Apodaca. I am a Full Stack Jr Dev and you are about to explore my portfolio designed to show my expertise and personality. Any questions, thoughts, or feedback feel free to reach out to me!
     
         </p>
         </main>

@@ -7,7 +7,7 @@ const resume = () => {
     <div>
       <h1
         style={{
-          fontSize: 17,
+          fontSize: 18,
           color: "white",
           textAlign: "center",
           background: "black",
@@ -32,7 +32,6 @@ const resume = () => {
         <Card style={{ width: "400", background: "black" }}>
           <Card.Body>
             <Card.Title style={{ fontSize: "16", background: "black" }}>
-              <br></br>
               <br></br>
               <br></br>
               Front-end Profiencies
@@ -76,11 +75,10 @@ const resume = () => {
               <br></br>
               GraphQL
               <br></br>
+              <br></br>
             </Card.Text>
           </Card.Body>
         </Card>
-        
-      
       </h1>
     </div>
   );

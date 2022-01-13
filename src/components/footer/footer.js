@@ -31,23 +31,7 @@ const Footer = () => {
   return (
     <div>
       <footer style={styles.back}>
-        <a
-          href="https://www.linkedin.com/in/k%E2%80%99trina-apodaca-1b45481b6"
-          target="no-target-blank"
-        >
-          <FaLinkedin style={{ color: "white", fontSize: "40px" }} />
-        </a>
-
-        <a href="https://github.com/kapodaca0403" target="no-target-blank">
-          <FaGithub style={{ color: "white", fontSize: "40px" }} />
-        </a>
-
-        <a
-          href="https://stackoverflow.com/users/16485844/kavocado"
-          target="no-target-blank"
-        >
-          <FaStackOverflow style={{ color: "white", fontSize: "40px" }} />
-        </a>
+       
       </footer>
     </div>
   );
