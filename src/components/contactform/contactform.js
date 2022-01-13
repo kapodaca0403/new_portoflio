@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Card, Button, Row, Col } from "react-bootstrap";
+import { Form, Card, Button, Tooltip, render, OverlayTrigger } from "react-bootstrap";
 import {
   FaHeart,
   FaRegHeart,
@@ -7,8 +7,8 @@ import {
   FaGithub,
   FaLinkedin,
   FaStackOverflow,
-  FaLink,
   FaEnvelope,
+  FaPhone,
 } from "react-icons/fa";
 
 import emailjs from "emailjs-com";
@@ -36,6 +36,21 @@ function contactbutton() {
     );
   });
 }
+const renderTooltip = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Simple tooltip
+  </Tooltip>
+);
+
+// render(
+//   <OverlayTrigger
+//     placement="right"
+//     delay={{ show: 250, hide: 400 }}
+//     overlay={renderTooltip}
+//   >
+//     <Button variant="success">Hover me to see</Button>
+//   </OverlayTrigger>
+// );
 
 export const contactform = () => {
   return (
@@ -68,25 +83,52 @@ export const contactform = () => {
             <Card.Text style={{ background: "black" }}>
               Thanks for visiting! Here are the best ways to contact me and i'll
               be sure to keep in touch.
-              <FaAngellist />
+              <FaAngellist style={{ fontSize: "25px" }} />
               <Card.Footer>
-                <FaEnvelope></FaEnvelope>
-
-                <a href="https://www.linkedin.com/in/k%E2%80%99trina-apodaca-1b45481b6/" target="no-target-blank">
-                  <FaLinkedin>
-                </FaLinkedin>
+                <a href="mailto:ktrinaapodaca@yahoo.com">
+                  <FaEnvelope
+                    style={{ color: "white", fontSize: "35px" }}
+                  ></FaEnvelope>
                 </a>
-              <a href="https://github.com/kapodaca0403" target="no-target-blank">
-                <FaGithub></FaGithub>
-</a>
-<a href="https://stackoverflow.com/users/16485844/kavocado" target="no-target-blank">
-                <FaStackOverflow></FaStackOverflow>
+                <a
+                  href="https://www.linkedin.com/in/k%E2%80%99trina-apodaca-1b45481b6/"
+                  target="no-target-blank"
+                >
+                  <FaLinkedin
+                    style={{ color: "white", fontSize: "35px" }}
+                  ></FaLinkedin>
                 </a>
+                <a
+                  href="https://github.com/kapodaca0403"
+                  target="no-target-blank"
+                >
+                  <FaGithub
+                    style={{ color: "white", fontSize: "35px" }}
+                  ></FaGithub>
+                </a>
+                <a
+                  href="https://stackoverflow.com/users/16485844/kavocado"
+                  target="no-target-blank"
+                >
+                  <FaStackOverflow
+                    style={{ color: "white", fontSize: "35px" }}
+                  ></FaStackOverflow>
+                </a>
+                <OverlayTrigger
+                  placement="right"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={renderTooltip}
+                >
+                  {/* <a href="tel:1-720-272-1501"> */}
+                  <FaPhone style={{ color: "white", fontSize: "35px" }}>
+                    720-272-1501
+                  </FaPhone>
+                  {/* </a> */}
+                </OverlayTrigger>
               </Card.Footer>
             </Card.Text>
           </Card.Body>
         </Card>
-        <br></br>
         <br></br>
         <br></br>
         <br></br>
