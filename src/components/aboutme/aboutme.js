@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import "../aboutme/aboutme.css";
-import { FaHeart, FaRegHeart} from "react-icons/fa"
+import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
+import Footer from "../footer/footer";
 
 
 const aboutme = () => {
@@ -48,6 +49,11 @@ const aboutme = () => {
               </Col>
             </Row>
           </Container>
+          <footer> 
+            < a href="/portfolio">
+            <FaArrowCircleRight style={{fontSize: "20px", right: "5", color:"white"}}> </FaArrowCircleRight>
+            </a>
+            </footer> 
 
           <br></br>
           <br></br>

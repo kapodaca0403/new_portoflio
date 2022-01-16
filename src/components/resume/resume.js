@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -23,7 +23,7 @@ const resume = () => {
         <FaRegHeart /> <br></br>
         Feel free to take a glance at my Resume
         <br></br>
-        <br></br>
+      
         <Card.Link style={{ fontSize: "8" }} href="#">
           Download Resume
         </Card.Link>
@@ -79,6 +79,15 @@ const resume = () => {
             </Card.Text>
           </Card.Body>
         </Card>
+        <footer>
+          <a href="/contactForm">
+            <FaArrowCircleRight
+              style={{ fontSize: "20px", right: "5", color: "white" }}
+            >
+              {" "}
+            </FaArrowCircleRight>
+          </a>
+        </footer>
       </h1>
     </div>
   );

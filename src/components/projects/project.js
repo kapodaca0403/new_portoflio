@@ -1,7 +1,7 @@
 import React from "react";
 // import Bounce from "react-animations";
 import { Carousel, Button } from "react-bootstrap";
-import { FaHeart, FaRegHeart } from "react-icons/fa"
+import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
 
 // const bounce = styled.div`animations 2s ${keyframes` ${Bounce}`} infinite`;
 
@@ -52,7 +52,8 @@ export const projects = () => {
                 variant="link"
                 size="sm"
                 href="https://nascott94.github.io/Brewing-Crypto/"
-                target="no-target-blank" style={{color:"white"}}
+                target="no-target-blank"
+                style={{ color: "white" }}
               >
                 View here
               </Button>
@@ -66,7 +67,7 @@ export const projects = () => {
             />
             <Carousel.Caption>
               <h5>Git Outside</h5>
-              <p >
+              <p>
                 Designed to allow users to create accounts to post hidden
                 gems/campsites and share memories.
               </p>
@@ -75,7 +76,7 @@ export const projects = () => {
                 size="sm"
                 href="https://git-outside.herokuapp.com/"
                 target="no-target-blank"
-                style={{color: "white"}}
+                style={{ color: "white" }}
               >
                 View here
               </Button>
@@ -98,7 +99,8 @@ export const projects = () => {
                 variant="link"
                 size="sm"
                 href="https://good-dogs-club.herokuapp.com/"
-                target="no-target-blank" style={{color:"white"}}
+                target="no-target-blank"
+                style={{ color: "white" }}
               >
                 View here
               </Button>
@@ -116,12 +118,23 @@ export const projects = () => {
                 A personal website in the making. It is designed to show off the
                 client’s event planning services.
               </p>
-              <Button variant="link" size="sm" style={{color:"white"}}>
+              <Button variant="link" size="sm" style={{ color: "white" }}>
                 View here
               </Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+        <footer class="text-right text custom">
+          <a href="/Resume">
+            <FaArrowCircleRight
+              style={{ fontSize: "20px", right: "5", color: "white", float: "left",
+position: "relative",
+marginLeft: "4%" }}
+            >
+              {" "}
+            </FaArrowCircleRight>
+          </a>
+        </footer>
       </h1>
     </div>
   );
