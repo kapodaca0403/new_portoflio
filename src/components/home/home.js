@@ -26,7 +26,7 @@ const home = () => {
           >
             <br></br>
             <Button variant="link" href="/aboutme"
-            style={{color:"white"}}>E N T E R</Button>
+            style={{color:"white", fontFamily:"'Anton', sans-serif", fontSize:"25px"}} >E N T E R</Button>
           </p>
         </main>
       </div>

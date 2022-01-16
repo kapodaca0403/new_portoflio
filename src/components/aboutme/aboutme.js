@@ -12,7 +12,13 @@ const aboutme = () => {
         <main className="maininfo">
           <br></br>
           <br></br>
-          <p style={{ size: "20", textAlign: "center" }}>
+          <p
+            style={{
+             fontSize: 18,
+              textAlign: "center",
+              fontFamily: "Handlee, cursive",
+            }}
+          >
             {" "}
             A little bit about me <FaHeart /> <FaRegHeart />{" "}
           </p>
@@ -34,10 +40,20 @@ const aboutme = () => {
               </Col>
 
               <Col>
-              <br></br>
-                <h5 style={{ textAlign: "center" }}> W E L C O M E </h5>
                 <br></br>
-                <p style={{ lineHeight: "3.8" }}>
+                <h5
+                  style={{
+                    textAlign: "center",
+                    fontFamily: "Handlee, cursive",
+                  }}
+                >
+                  {" "}
+                  W E L C O M E{" "}
+                </h5>
+                <br></br>
+                <p
+                  style={{ lineHeight: "3.8", fontFamily: "Handlee, cursive", fontSize: "20px" }}
+                >
                   Hope you enjoyed the Neon Evangelion image on the homepage.
                   About the good stuff, I go by K'trina! I recently graduated
                   from the Univeristy of Denver Full Stack Coding Bootcamp. My
@@ -49,11 +65,15 @@ const aboutme = () => {
               </Col>
             </Row>
           </Container>
-          <footer> 
-            < a href="/portfolio">
-            <FaArrowCircleRight style={{fontSize: "20px", right: "5", color:"white"}}> </FaArrowCircleRight>
+          <footer>
+            <a href="/portfolio">
+              <FaArrowCircleRight
+                style={{ fontSize: "20px", right: "5", color: "white" }}
+              >
+                {" "}
+              </FaArrowCircleRight>
             </a>
-            </footer> 
+          </footer>
 
           <br></br>
           <br></br>
