@@ -24,7 +24,7 @@ const resume = () => {
         Feel free to take a glance at my Resume
         <br></br>
       
-        <Card.Link style={{ fontSize: "8" }} href="#">
+        <Card.Link style={{ fontSize: "8" }} href="../../../ApodacaResume(1).pdf">
           Download Resume
         </Card.Link>
         <br></br>
