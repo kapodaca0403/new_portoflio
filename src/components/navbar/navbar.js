@@ -23,7 +23,7 @@ export const navbar = () => {
           >
             K'trina Apodaca
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
@@ -74,7 +74,7 @@ export const navbar = () => {
                 Home
               </Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </div>

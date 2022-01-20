@@ -23,8 +23,12 @@ const resume = () => {
         <FaRegHeart /> <br></br>
         Feel free to take a glance at my Resume
         <br></br>
-      
-        <Card.Link style={{ fontSize: "8" }} href="../../../ApodacaResume(1).pdf">
+        <Card.Link
+          style={{ fontSize: "8" }}
+          href="../../../ApodacaResume (1).pdf"
+          download
+          target="no_blank"
+        >
           Download Resume
         </Card.Link>
         <br></br>
