@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
+import { FaHeart, FaRegHeart, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const resume = () => {
   return (
@@ -83,13 +83,24 @@ const resume = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <footer>
-          <a href="/contactForm">
-            <FaArrowCircleRight
-              style={{ fontSize: "20px", right: "5", color: "white" }}
+        <footer style={{ textAlign: "center", lineSpacing: "5.5px" }}>
+          <a href="/projects">
+            <FaArrowLeft
+              style={{
+                color: "white",
+                size: "5px",
+              }}
             >
               {" "}
-            </FaArrowCircleRight>
+            </FaArrowLeft>{" "}
+            <a href="/contactForm">
+              <FaArrowRight
+                style={{
+                  color: "white",
+                  size: "5px",
+                }}
+              ></FaArrowRight>
+            </a>
           </a>
         </footer>
       </h1>

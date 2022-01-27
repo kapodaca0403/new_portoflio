@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import "../aboutme/aboutme.css";
-import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
+import { FaHeart, FaRegHeart, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Footer from "../footer/footer";
 
 
@@ -14,7 +14,7 @@ const aboutme = () => {
           <br></br>
           <p
             style={{
-             fontSize: 18,
+              fontSize: 18,
               textAlign: "center",
               fontFamily: "Handlee, cursive",
             }}
@@ -52,7 +52,11 @@ const aboutme = () => {
                 </h5>
                 <br></br>
                 <p
-                  style={{ lineHeight: "3.8", fontFamily: "Handlee, cursive", fontSize: "20px" }}
+                  style={{
+                    lineHeight: "3.8",
+                    fontFamily: "Handlee, cursive",
+                    fontSize: "20px",
+                  }}
                 >
                   Hope you enjoyed the Neon Evangelion image on the homepage.
                   About the good stuff, I go by K'trina! I recently graduated
@@ -65,13 +69,23 @@ const aboutme = () => {
               </Col>
             </Row>
           </Container>
-          <footer>
-            <a href="/portfolio">
-              <FaArrowCircleRight
-                style={{ fontSize: "20px", right: "5", color: "white" }}
+          <footer style={{ textAlign: "center", lineSpacing: "5.5px" }}>
+            {/* <a href="/aboutme">
+              <FaArrowLeft
+                style={{
+                  color: "white",
+                  size: "5px",
+                }}
               >
                 {" "}
-              </FaArrowCircleRight>
+              </FaArrowLeft> */}
+<a href="/portfolio">
+              <FaArrowRight
+                style={{
+                  color: "white",
+                  size: "5px",
+                }}
+              ></FaArrowRight>
             </a>
           </footer>
 

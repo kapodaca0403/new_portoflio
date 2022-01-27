@@ -1,7 +1,7 @@
 import React from "react";
 // import Bounce from "react-animations";
 import { Carousel, Button } from "react-bootstrap";
-import { FaHeart, FaRegHeart, FaArrowCircleRight } from "react-icons/fa";
+import { FaHeart, FaRegHeart, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 // const bounce = styled.div`animations 2s ${keyframes` ${Bounce}`} infinite`;
 
@@ -124,15 +124,26 @@ export const projects = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <footer class="text-right text custom">
-          <a href="/Resume">
-            <FaArrowCircleRight
-              style={{ fontSize: "20px", right: "5", color: "white", float: "left",
-position: "relative",
-marginLeft: "4%" }}
+        <footer style={{ textAlign: "center", lineSpacing: "5.5px" }}>
+          <a href="/aboutme">
+            <FaArrowLeft
+              style={{
+                color: "white",
+                size: "5px",
+              }}
             >
               {" "}
-            </FaArrowCircleRight>
+            </FaArrowLeft>{" "}
+            
+            <a href="/resume">
+              <FaArrowRight
+                style={{
+                  color: "white",
+                  size: "5px",
+                }}
+              ></FaArrowRight>
+              
+            </a>
           </a>
         </footer>
       </h1>
