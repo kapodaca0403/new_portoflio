@@ -23,7 +23,7 @@ const aboutme = () => {
             A little bit about me <FaHeart /> <FaRegHeart />{" "}
           </p>
           <br></br>
-          <br></br>
+        
           <Container>
             <Row>
               <Col>
@@ -63,7 +63,7 @@ const aboutme = () => {
                   from the Univeristy of Denver Full Stack Coding Bootcamp. My
                   favorite thing to do is learn, learn and more learning. I have
                   expertise in HTML5, React, Javascript and Bootstrap and of
-                  course taking the journey to add more to the list. Feel free
+                  course taking the journey to add more to the list. I will change my portfolio from time to time just to see what new things I can do to add to make it more fun and inviting. Feel free
                   to stay and browse!
                 </p>
               </Col>
@@ -90,7 +90,7 @@ const aboutme = () => {
           </footer>
 
           <br></br>
-          <br></br>
+        
         </main>
       </div>
     </div>

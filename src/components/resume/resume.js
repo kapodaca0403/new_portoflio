@@ -25,7 +25,7 @@ const resume = () => {
         <br></br>
         <Card.Link
           style={{ fontSize: "8" }}
-          href="../../../ApodacaResume (1).pdf"
+          href="../../../_UPDATEDApodacaResume.pdf"
           download
           target="no_blank"
         >

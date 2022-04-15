@@ -132,8 +132,18 @@ export const contactform = () => {
         <br></br>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
+     
+        <Button
+          variant="link"
+          href="/"
+          style={{
+            color: "white",
+            fontFamily: "'Anton', sans-serif",
+            fontSize: "25px",
+          }}
+        >
+          F I  N
+        </Button>
         {/* <Form>
           <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
             <Form.Label column sm="2">
