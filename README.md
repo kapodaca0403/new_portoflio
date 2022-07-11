@@ -1,4 +1,4 @@
-# Portfolio
+# Offical Portfolio
 
 ![license badge](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
@@ -16,25 +16,24 @@
 
 This project is licensed under the MIT license.
 
-## Description
+## Description 
 
-Hi there! This is an updated portfolio of mine using react. Here you will find an about me section, contact information and some of my latest projects that I have been working on during my bootcamp adventure.
-
-Heroku: https://katerz-reactport.herokuapp.com/
-
-
+Hi there! This is my official professional portfolio. You can find currenct contact information, resume, a little bit about myself and projects. 
+ ** Instructions: 
+ - View, portfolio using this link: Heroku: https://katerz-reactport.herokuapp.com/
+ - Sip some coffee and browse, browse, and more browsing. 
+ - If something on the portfolio is giving an error, please let me know! 
 
 ## Technology
 
-React
-
-Bootstrap
-
-EmailJS
+- REACT 
+- CSS 
+- HTML
+- REACT BOOTSTRAP
 
 ## Usage
 
-This is an updated portfolio using react.
+To famalirize yourself with my background and what to expect from K'trina Apodaca. 
 
 ## Contribution
 
@@ -42,7 +41,8 @@ We believe code is never finished, and welcome your contributions to enhance the
 
 ## Questions
 
-If you have any questions please contact me at ktrinaapodaca@yahoo.com You can find more of my projects at [kapodaca0403](https://github.com/kapodaca0403)
+Please feel free to reach out with any questions, concerncs or advice. 
+You can find more of my projects at [kapodaca0403](https://github.com/kapodaca0403)
 
 ## Installation
 
