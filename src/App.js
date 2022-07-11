@@ -26,16 +26,15 @@ function App() {
         <Route exact path="/Resume">
           <Resume />
         </Route>
-        {/* <Route exact path="/portfolio">
+        <Route exact path="/portfolio">
           <Projects />
-        </Route> */}
+        </Route>
         <Route exact path="/contactform">
           <Contactform />
         </Route>
         <Route exact path="/home">
           <Home />
         </Route>
-
         <Footer />
       </Router>
     </>
