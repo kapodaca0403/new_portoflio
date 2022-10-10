@@ -1,24 +1,26 @@
 import React from "react";
 import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/footer";
+
 import Aboutme from "./components/aboutme/aboutme";
 import Resume from "./components/resume/resume";
 import Projects from "./components/projects/project";
 import Contactform from "./components/contactform/contactform";
-import Home from "./components/home/home";
-import ReactDOM from "react-dom";
-import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
+// import ReactDOM from "react-dom";
+// import { FontawesomeObject } from "@fortawesome/fontawesome-svg-core";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "bootswatch/dist/minty/bootstrap.min.css";
+//import "/App.js/app.css";
 
 // add router function to links and switch
 // <Route exact path="/gamestock/" component={Homepage} /> this would be the same as the link to path
 function App() {
   return (
-    <>
+    // <>
+    <div>
       <Router>
         <Navbar />
         <Route exact path="/">
-          <Home />
+          <Aboutme />
         </Route>
         <Route exact path="/aboutme">
           <Aboutme />
@@ -32,12 +34,10 @@ function App() {
         <Route exact path="/contactform">
           <Contactform />
         </Route>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Footer />
+       
+      
       </Router>
-    </>
+    </div>
   );
 }
 

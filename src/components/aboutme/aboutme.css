@@ -1,14 +1,14 @@
 body {
-  background: "black";
+  background: "#78c2ad";
 }
 .heading {
   color: white;
-  background: #9a879d;
+  background: #78c2ad;
   font-family: "Shadows Into Light", cursive;
 }
 .maininfo {
   color: white;
-  background: black;
+  background: #78c2ad;
   font-family: "Shadows Into Light", cursive;
 }
 .h2 {

@@ -54,18 +54,19 @@ const renderTooltip = (props) => (
 
 export const contactform = () => {
   return (
-    <div>
+    <div style={{ background: "#78c2ad" }}>
       <h1
         style={{
           fontSize: 18,
           color: "white",
           textAlign: "center",
-          background: "black",
+          background: "#78c2ad",
           bottom: 0,
           padding: "1.2em",
           fontFamily: "Handlee, cursive",
         }}
       >
+        <br></br>
         Contact Me <FaHeart />
         <FaRegHeart />
         <br></br>
@@ -75,16 +76,17 @@ export const contactform = () => {
             width: "600px",
             textAlign: "center",
             margin: "auto",
-            background: "black",
+            background: "#78c2ad",
+            outlineStyle: "dotted",
           }}
         >
           <Card.Img variant="top" src="../../../conactfoto.jpg" />
           <Card.Body>
-            <Card.Text style={{ background: "black" }}>
+            <Card.Text style={{ background: "#78c2ad" }}>
               Thanks for visiting! Here are the best ways to contact me and i'll
               be sure to keep in touch.
               <FaAngellist style={{ fontSize: "25px" }} />
-              <Card.Footer>
+              <Card.Footer style={{ outlineStyle: "dotted" }}>
                 <a href="mailto:ktrinaapodaca@yahoo.com">
                   <FaEnvelope
                     style={{ color: "white", fontSize: "35px" }}
@@ -132,18 +134,10 @@ export const contactform = () => {
         <br></br>
         <br></br>
         <br></br>
-     
-        <Button
-          variant="link"
-          href="/"
-          style={{
-            color: "white",
-            fontFamily: "'Anton', sans-serif",
-            fontSize: "25px",
-          }}
-        >
-          F I  N
-        </Button>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         {/* <Form>
           <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
             <Form.Label column sm="2">

@@ -5,76 +5,49 @@ import { Link } from "react-router-dom";
 export const navbar = () => {
   return (
     <div>
-      <Navbar
-        collapseOnSelect
-        expand="lg py-5"
-        bg="#689689"
-        variant="light"
-        style={{ background: "black", marginLeft: "0px", width: "100%" }}
-      >
-        <Container>
+      <Navbar variant="light" expand="lg" style={{ background: "#78c2ad" }}>
+        <Container style={{ background: "#78c2ad" }}>
           <Navbar.Brand
+            href="#home"
             style={{
+              background: "#78c2ad",
               color: "white",
-              background: "black",
-              fontSize: "40px",
               fontFamily: "Handlee, cursive",
+              fontSize: "34px",
             }}
           >
             K'trina Apodaca
           </Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
               <Nav.Link
+                style={{ color: "white", fontFamily: "Handlee, cursive" }}
                 href="/aboutme"
-                style={{
-                  color: "white",
-                  fontFamily: "Handlee, cursive",
-                }}
               >
                 About Me
               </Nav.Link>
               <Nav.Link
-                eventKey={2}
+                style={{ color: "white", fontFamily: "Handlee, cursive" }}
                 href="/portfolio"
-                style={{
-                  color: "white",
-                  fontFamily: "Handlee, cursive",
-                }}
               >
-                Portfolio
+                Projects
               </Nav.Link>
               <Nav.Link
+                style={{ color: "white", fontFamily: "Handlee, cursive" }}
                 href="/resume"
-                style={{
-                  color: "white",
-                  fontFamily: "Handlee, cursive",
-                }}
               >
-                Resume
+                Resume{" "}
               </Nav.Link>
               <Nav.Link
+                style={{ color: "white", fontFamily: "Handlee, cursive" }}
                 href="/contactform"
-                style={{
-                  color: "white",
-                  fontFamily: "Handlee, cursive",
-                }}
               >
-                Contact
-              </Nav.Link>
-              <Nav.Link
-                href="/home"
-                style={{
-                  color: "white",
-                  fontFamily: "Handlee, cursive",
-                }}
-              >
-                Home
+                Contact Info{" "}
               </Nav.Link>
             </Nav>
-          </Navbar.Collapse> */}
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>
