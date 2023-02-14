@@ -33,7 +33,7 @@ Hi there! This is my official professional portfolio. You can find currenct cont
 
 ## Usage
 
-To famalirize yourself with my background and what to expect from K'trina Apodaca. 
+To familiarize yourself with my background and what to expect from K'trina Apodaca. 
 
 ## Contribution
 
